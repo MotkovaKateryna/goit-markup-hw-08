@@ -1,0 +1,112 @@
+.footer {
+    background-color: var(--backg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.address {
+    margin-top: 20px;
+}
+.logo-second-color {
+    color: var(--third-color);
+}
+.address__street-link {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+    transition: color var(--transition-dur-and-func);
+        &:hover,
+        &:focus {
+            outline: none;
+            color: var(--accent-color);
+        }
+}
+.adress-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.address__mail-link,
+.address__tel-link {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--transition-dur-and-func);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        outline: none;
+    }
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+.invite {
+    margin-left: 70px;
+}
+.invite-head {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-color);
+    margin-bottom: 20px;
+}
+.ficon {
+    fill: var(--third-color);
+}
+.flink {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.subscr-form {
+    margin-left: auto;
+}
+.subscr-form__input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: inherit;
+    padding-left: 16px;
+    margin-right: 12px;
+    font-family: 'Roboto';
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscr-form__btn {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--third-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-left: 28px;
+        &::after {
+            content: '';
+            display: block;
+            width: 24px;
+            height: 24px;
+            background-image: url(../images/send.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-left: 10px;
+        }
+}
+
+

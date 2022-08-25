@@ -1,0 +1,30 @@
+.partners-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--icons-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    transition: border var(--transition-dur-and-func);
+    &:hover,
+    &:focus {
+            border: 1px solid var(--accent-color);
+            outline: none;
+        }
+}
+
+.partners-list__icon {
+    fill: var(--icons-color);
+    transition: fill var(--transition-dur-and-func);
+    .partners-list__link:hover &,
+    .partners-list__link:focus & {
+            fill: var(--accent-color);
+        }
+}
