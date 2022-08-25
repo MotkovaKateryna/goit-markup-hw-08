@@ -56,6 +56,11 @@
     letter-spacing: 0.02em;
 
     color: var(--text-color);
+
+    &:hover,
+    &:focus{
+      color: var(--accent-color);
+    }
   }
 .mobile-menu-social-list__item:not(:last-child):after{
 content: '';
