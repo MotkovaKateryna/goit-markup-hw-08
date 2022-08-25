@@ -2,10 +2,19 @@
     padding-bottom: 0;
 }
 
-.advantages-list {
-    display: flex;
-    gap: 30px;
+
+.advantages-list__item{
+    width: 450px;
+
 }
+
+
+
+
+// .advantages-list {
+//     display: flex;
+//     gap: 30px;
+// }
 
 .advantages-list__item {
     width: 270px;
@@ -18,6 +27,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    
 }
 
 .advantages__descr {
