@@ -26,8 +26,8 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   padding: 40px;
 
   background: var(--third-color);
@@ -35,6 +35,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform var(--transition-dur-and-func);
+
+  @media screen and (min-width:1200px){
+    width: 528px;
+      height: 581px;
+  }
 }
 
 .modal-close-btn {
@@ -73,11 +78,15 @@
 
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--text-color);
+  @media screen and (min-width:1200px){
+    line-height: 1.15;
+
+}
 }
 
 .modal-form__field:not(:nth-child(5)) {
@@ -160,11 +169,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.17;
   margin-bottom: 30px;
-  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  @media screen and (min-width:1200px){
+    font-size: 14px;
+      line-height: 1.7;
+  }
+
     &::before {
         display: block;
         width: 16px;
@@ -189,10 +203,13 @@
     }
 }
 .terms-contract {
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 
   color: var(--accent-color);
+  @media screen and (min-width:1200px) {
+    line-height: 1.71;
+  }
 }
 
 .sub-btn {

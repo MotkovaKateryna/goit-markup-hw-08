@@ -7,14 +7,14 @@
     color: var(--accent-color);
 
 }
-.page-header__logo {
-    margin-right: 87px;
-}
+
 .logo__part_color {
     color: var(--first-logo-color);
 }
 @media screen and (min-width:768px) {
-    
+    .page-header__logo {
+            margin-right: 87px;
+        }
 }
 
 @media screen and (min-width:1200px) {

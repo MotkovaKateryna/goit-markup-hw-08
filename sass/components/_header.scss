@@ -6,7 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  // padding-bottom: 10px;
+  // padding-top: 10px;
 }
+
+
 @media screen and (max-width:767px) {
   .menu{
     display: none;
@@ -22,10 +26,10 @@
       outline: none;
     }
   
-    .mobile-menu-open__icon {
-      width: 40px;
-      height: 40px;
-    }
+    // .mobile-menu-open__icon {
+    //   width: 24px;
+    //   height: 16px;
+    // }
 }
 
 @media screen and (min-width:768px){
@@ -140,12 +144,6 @@
 
 
 
-.mobile-menu__container {
-  position: relative;
-  padding-left: 40px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
 
 
 
