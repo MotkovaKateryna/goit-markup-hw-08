@@ -371,7 +371,7 @@ body {
   text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg-mobile@1x.jpg");
   background-repeat: no-repeat;
-  width: auto;
+  width: 100%;
   height: 400px;
   background-size: cover;
   background-position: center;
@@ -384,10 +384,15 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-color);
-  width: 360px;
+  width: 100%;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .main-title {
+    width: 360px;
+  }
 }
 
 .main-btn {
@@ -803,7 +808,7 @@ body {
 }
 
 .subscr-form__input {
-  width: 358px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -817,8 +822,14 @@ body {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 20px;
 }
+@media screen and (min-width: 480px) {
+  .subscr-form__input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscr-form__input {
+    width: 358px;
     margin-bottom: 0;
   }
 }
@@ -1013,13 +1024,18 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 450px;
+  width: 100%;
   height: 609px;
   padding: 40px;
   background: var(--third-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform var(--transition-dur-and-func);
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
