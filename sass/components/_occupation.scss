@@ -40,14 +40,6 @@
             color: var(--third-color);
         }
     
-        .team {
-            background: var(--backgr-team-btn-color);
-        }
-    
-        .team .team-list {
-            display: flex;
-            gap: 30px;
-            flex-basis: calc((100% - 90px)/4)
-        }
+        
     
 }
