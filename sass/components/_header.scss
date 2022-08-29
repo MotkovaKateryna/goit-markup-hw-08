@@ -5,7 +5,7 @@
 .page-header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+ 
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -17,6 +17,11 @@
   .contact {
     display: none;
   }
+    .page-header-container {
+      
+      justify-content: space-between;}
+
+
   .mobile-menu-open {
     background-color: transparent;
     border: none;
@@ -63,6 +68,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    margin-left: auto;
   }
 
   .menu__item:not(:last-child) {
@@ -139,6 +145,7 @@
   .contact {
     flex-direction: row;
     align-items: center;
+    
   }
   .menu__link {
     font-size: 14px;
